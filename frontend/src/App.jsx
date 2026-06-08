@@ -26,6 +26,7 @@ import ProductionDashboard from "./Dashboards/ProductionDashboard";
 import SalesDashboard from "./Dashboards/SalesDashboard";
 
 function App() {
+  
   const router = createBrowserRouter([
     { path: "/", element: <Login /> },
 
